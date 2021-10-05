@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "/workspace/src/DotNetty.Common/DotNetty.Common.csproj": {}
+  },
+  "projects": {
+    "/workspace/src/DotNetty.Common/DotNetty.Common.csproj": {
+      "version": "0.6.0",
+      "restore": {
+        "projectUniqueName": "/workspace/src/DotNetty.Common/DotNetty.Common.csproj",
+        "projectName": "DotNetty.Common",
+        "projectPath": "/workspace/src/DotNetty.Common/DotNetty.Common.csproj",
+        "packagesPath": "/home/meterian/.nuget/packages/",
+        "outputPath": "/workspace/src/DotNetty.Common/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "/home/meterian/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net45",
+          "netstandard1.3"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "projectReferences": {}
+          },
+          "netstandard1.3": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[4.5.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/3.1.410/RuntimeIdentifierGraph.json"
+        },
+        "netstandard1.3": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "System.Diagnostics.Contracts": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Net.NetworkInformation": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[4.5.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/3.1.410/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
