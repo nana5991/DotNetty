@@ -1,0 +1,754 @@
+{
+  "format": 1,
+  "restore": {
+    "/workspace/test/DotNetty.Tests.End2End/DotNetty.Tests.End2End.csproj": {}
+  },
+  "projects": {
+    "/workspace/src/DotNetty.Buffers/DotNetty.Buffers.csproj": {
+      "version": "0.6.0",
+      "restore": {
+        "projectUniqueName": "/workspace/src/DotNetty.Buffers/DotNetty.Buffers.csproj",
+        "projectName": "DotNetty.Buffers",
+        "projectPath": "/workspace/src/DotNetty.Buffers/DotNetty.Buffers.csproj",
+        "packagesPath": "/home/meterian/.nuget/packages/",
+        "outputPath": "/workspace/src/DotNetty.Buffers/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "/home/meterian/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net45",
+          "netstandard1.3"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "projectReferences": {
+              "/workspace/src/DotNetty.Common/DotNetty.Common.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Common/DotNetty.Common.csproj"
+              }
+            }
+          },
+          "netstandard1.3": {
+            "projectReferences": {
+              "/workspace/src/DotNetty.Common/DotNetty.Common.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Common/DotNetty.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "dependencies": {
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[4.5.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/3.1.410/RuntimeIdentifierGraph.json"
+        },
+        "netstandard1.3": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "System.Diagnostics.Contracts": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[4.5.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/3.1.410/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspace/src/DotNetty.Codecs.Mqtt/DotNetty.Codecs.Mqtt.csproj": {
+      "version": "0.6.0",
+      "restore": {
+        "projectUniqueName": "/workspace/src/DotNetty.Codecs.Mqtt/DotNetty.Codecs.Mqtt.csproj",
+        "projectName": "DotNetty.Codecs.Mqtt",
+        "projectPath": "/workspace/src/DotNetty.Codecs.Mqtt/DotNetty.Codecs.Mqtt.csproj",
+        "packagesPath": "/home/meterian/.nuget/packages/",
+        "outputPath": "/workspace/src/DotNetty.Codecs.Mqtt/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "/home/meterian/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net45",
+          "netstandard1.3"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "projectReferences": {
+              "/workspace/src/DotNetty.Buffers/DotNetty.Buffers.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Buffers/DotNetty.Buffers.csproj"
+              },
+              "/workspace/src/DotNetty.Codecs/DotNetty.Codecs.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Codecs/DotNetty.Codecs.csproj"
+              },
+              "/workspace/src/DotNetty.Common/DotNetty.Common.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Common/DotNetty.Common.csproj"
+              },
+              "/workspace/src/DotNetty.Transport/DotNetty.Transport.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Transport/DotNetty.Transport.csproj"
+              }
+            }
+          },
+          "netstandard1.3": {
+            "projectReferences": {
+              "/workspace/src/DotNetty.Buffers/DotNetty.Buffers.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Buffers/DotNetty.Buffers.csproj"
+              },
+              "/workspace/src/DotNetty.Codecs/DotNetty.Codecs.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Codecs/DotNetty.Codecs.csproj"
+              },
+              "/workspace/src/DotNetty.Common/DotNetty.Common.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Common/DotNetty.Common.csproj"
+              },
+              "/workspace/src/DotNetty.Transport/DotNetty.Transport.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Transport/DotNetty.Transport.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/3.1.410/RuntimeIdentifierGraph.json"
+        },
+        "netstandard1.3": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "System.Diagnostics.Contracts": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/3.1.410/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspace/src/DotNetty.Codecs/DotNetty.Codecs.csproj": {
+      "version": "0.6.0",
+      "restore": {
+        "projectUniqueName": "/workspace/src/DotNetty.Codecs/DotNetty.Codecs.csproj",
+        "projectName": "DotNetty.Codecs",
+        "projectPath": "/workspace/src/DotNetty.Codecs/DotNetty.Codecs.csproj",
+        "packagesPath": "/home/meterian/.nuget/packages/",
+        "outputPath": "/workspace/src/DotNetty.Codecs/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "/home/meterian/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net45",
+          "netstandard1.3"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "projectReferences": {
+              "/workspace/src/DotNetty.Buffers/DotNetty.Buffers.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Buffers/DotNetty.Buffers.csproj"
+              },
+              "/workspace/src/DotNetty.Common/DotNetty.Common.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Common/DotNetty.Common.csproj"
+              },
+              "/workspace/src/DotNetty.Transport/DotNetty.Transport.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Transport/DotNetty.Transport.csproj"
+              }
+            }
+          },
+          "netstandard1.3": {
+            "projectReferences": {
+              "/workspace/src/DotNetty.Buffers/DotNetty.Buffers.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Buffers/DotNetty.Buffers.csproj"
+              },
+              "/workspace/src/DotNetty.Common/DotNetty.Common.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Common/DotNetty.Common.csproj"
+              },
+              "/workspace/src/DotNetty.Transport/DotNetty.Transport.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Transport/DotNetty.Transport.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "dependencies": {
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/3.1.410/RuntimeIdentifierGraph.json"
+        },
+        "netstandard1.3": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "System.Diagnostics.Contracts": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/3.1.410/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspace/src/DotNetty.Common/DotNetty.Common.csproj": {
+      "version": "0.6.0",
+      "restore": {
+        "projectUniqueName": "/workspace/src/DotNetty.Common/DotNetty.Common.csproj",
+        "projectName": "DotNetty.Common",
+        "projectPath": "/workspace/src/DotNetty.Common/DotNetty.Common.csproj",
+        "packagesPath": "/home/meterian/.nuget/packages/",
+        "outputPath": "/workspace/src/DotNetty.Common/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "/home/meterian/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net45",
+          "netstandard1.3"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "projectReferences": {}
+          },
+          "netstandard1.3": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[4.5.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/3.1.410/RuntimeIdentifierGraph.json"
+        },
+        "netstandard1.3": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "System.Diagnostics.Contracts": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Net.NetworkInformation": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[4.5.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/3.1.410/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspace/src/DotNetty.Handlers/DotNetty.Handlers.csproj": {
+      "version": "0.6.0",
+      "restore": {
+        "projectUniqueName": "/workspace/src/DotNetty.Handlers/DotNetty.Handlers.csproj",
+        "projectName": "DotNetty.Handlers",
+        "projectPath": "/workspace/src/DotNetty.Handlers/DotNetty.Handlers.csproj",
+        "packagesPath": "/home/meterian/.nuget/packages/",
+        "outputPath": "/workspace/src/DotNetty.Handlers/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "/home/meterian/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net45",
+          "netstandard1.3"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "projectReferences": {
+              "/workspace/src/DotNetty.Buffers/DotNetty.Buffers.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Buffers/DotNetty.Buffers.csproj"
+              },
+              "/workspace/src/DotNetty.Codecs/DotNetty.Codecs.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Codecs/DotNetty.Codecs.csproj"
+              },
+              "/workspace/src/DotNetty.Common/DotNetty.Common.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Common/DotNetty.Common.csproj"
+              },
+              "/workspace/src/DotNetty.Transport/DotNetty.Transport.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Transport/DotNetty.Transport.csproj"
+              }
+            }
+          },
+          "netstandard1.3": {
+            "projectReferences": {
+              "/workspace/src/DotNetty.Buffers/DotNetty.Buffers.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Buffers/DotNetty.Buffers.csproj"
+              },
+              "/workspace/src/DotNetty.Codecs/DotNetty.Codecs.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Codecs/DotNetty.Codecs.csproj"
+              },
+              "/workspace/src/DotNetty.Common/DotNetty.Common.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Common/DotNetty.Common.csproj"
+              },
+              "/workspace/src/DotNetty.Transport/DotNetty.Transport.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Transport/DotNetty.Transport.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/3.1.410/RuntimeIdentifierGraph.json"
+        },
+        "netstandard1.3": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "System.Diagnostics.Contracts": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Globalization.Extensions": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Net.Security": {
+              "target": "Package",
+              "version": "[4.3.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/3.1.410/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspace/src/DotNetty.Transport/DotNetty.Transport.csproj": {
+      "version": "0.6.0",
+      "restore": {
+        "projectUniqueName": "/workspace/src/DotNetty.Transport/DotNetty.Transport.csproj",
+        "projectName": "DotNetty.Transport",
+        "projectPath": "/workspace/src/DotNetty.Transport/DotNetty.Transport.csproj",
+        "packagesPath": "/home/meterian/.nuget/packages/",
+        "outputPath": "/workspace/src/DotNetty.Transport/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "/home/meterian/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net45",
+          "netstandard1.3"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "projectReferences": {
+              "/workspace/src/DotNetty.Buffers/DotNetty.Buffers.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Buffers/DotNetty.Buffers.csproj"
+              },
+              "/workspace/src/DotNetty.Common/DotNetty.Common.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Common/DotNetty.Common.csproj"
+              }
+            }
+          },
+          "netstandard1.3": {
+            "projectReferences": {
+              "/workspace/src/DotNetty.Buffers/DotNetty.Buffers.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Buffers/DotNetty.Buffers.csproj"
+              },
+              "/workspace/src/DotNetty.Common/DotNetty.Common.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Common/DotNetty.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "dependencies": {
+            "System.Threading.Tasks.Extensions": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/3.1.410/RuntimeIdentifierGraph.json"
+        },
+        "netstandard1.3": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            },
+            "System.Diagnostics.Contracts": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Diagnostics.StackTrace": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Net.NameResolution": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Net.Primitives": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Net.Sockets": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Reflection.TypeExtensions": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Threading.Tasks.Extensions": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/3.1.410/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspace/test/DotNetty.Tests.Common/DotNetty.Tests.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspace/test/DotNetty.Tests.Common/DotNetty.Tests.Common.csproj",
+        "projectName": "DotNetty.Tests.Common",
+        "projectPath": "/workspace/test/DotNetty.Tests.Common/DotNetty.Tests.Common.csproj",
+        "packagesPath": "/home/meterian/.nuget/packages/",
+        "outputPath": "/workspace/test/DotNetty.Tests.Common/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "/home/meterian/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net452",
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "/workspace/src/DotNetty.Common/DotNetty.Common.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Common/DotNetty.Common.csproj"
+              },
+              "/workspace/src/DotNetty.Transport/DotNetty.Transport.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Transport/DotNetty.Transport.csproj"
+              }
+            }
+          },
+          "net452": {
+            "projectReferences": {
+              "/workspace/src/DotNetty.Common/DotNetty.Common.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Common/DotNetty.Common.csproj"
+              },
+              "/workspace/src/DotNetty.Transport/DotNetty.Transport.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Transport/DotNetty.Transport.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.8.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/3.1.410/RuntimeIdentifierGraph.json"
+        },
+        "net452": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.8.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/3.1.410/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspace/test/DotNetty.Tests.End2End/DotNetty.Tests.End2End.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspace/test/DotNetty.Tests.End2End/DotNetty.Tests.End2End.csproj",
+        "projectName": "DotNetty.Tests.End2End",
+        "projectPath": "/workspace/test/DotNetty.Tests.End2End/DotNetty.Tests.End2End.csproj",
+        "packagesPath": "/home/meterian/.nuget/packages/",
+        "outputPath": "/workspace/test/DotNetty.Tests.End2End/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "/home/meterian/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net452",
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "/workspace/src/DotNetty.Buffers/DotNetty.Buffers.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Buffers/DotNetty.Buffers.csproj"
+              },
+              "/workspace/src/DotNetty.Codecs.Mqtt/DotNetty.Codecs.Mqtt.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Codecs.Mqtt/DotNetty.Codecs.Mqtt.csproj"
+              },
+              "/workspace/src/DotNetty.Codecs/DotNetty.Codecs.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Codecs/DotNetty.Codecs.csproj"
+              },
+              "/workspace/src/DotNetty.Common/DotNetty.Common.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Common/DotNetty.Common.csproj"
+              },
+              "/workspace/src/DotNetty.Handlers/DotNetty.Handlers.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Handlers/DotNetty.Handlers.csproj"
+              },
+              "/workspace/src/DotNetty.Transport/DotNetty.Transport.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Transport/DotNetty.Transport.csproj"
+              },
+              "/workspace/test/DotNetty.Tests.Common/DotNetty.Tests.Common.csproj": {
+                "projectPath": "/workspace/test/DotNetty.Tests.Common/DotNetty.Tests.Common.csproj"
+              }
+            }
+          },
+          "net452": {
+            "projectReferences": {
+              "/workspace/src/DotNetty.Buffers/DotNetty.Buffers.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Buffers/DotNetty.Buffers.csproj"
+              },
+              "/workspace/src/DotNetty.Codecs.Mqtt/DotNetty.Codecs.Mqtt.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Codecs.Mqtt/DotNetty.Codecs.Mqtt.csproj"
+              },
+              "/workspace/src/DotNetty.Codecs/DotNetty.Codecs.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Codecs/DotNetty.Codecs.csproj"
+              },
+              "/workspace/src/DotNetty.Common/DotNetty.Common.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Common/DotNetty.Common.csproj"
+              },
+              "/workspace/src/DotNetty.Handlers/DotNetty.Handlers.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Handlers/DotNetty.Handlers.csproj"
+              },
+              "/workspace/src/DotNetty.Transport/DotNetty.Transport.csproj": {
+                "projectPath": "/workspace/src/DotNetty.Transport/DotNetty.Transport.csproj"
+              },
+              "/workspace/test/DotNetty.Tests.Common/DotNetty.Tests.Common.csproj": {
+                "projectPath": "/workspace/test/DotNetty.Tests.Common/DotNetty.Tests.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.8.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/3.1.410/RuntimeIdentifierGraph.json"
+        },
+        "net452": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.8.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/3.1.410/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
